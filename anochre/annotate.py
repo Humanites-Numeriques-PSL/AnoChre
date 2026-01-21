@@ -96,5 +96,5 @@ def annotation(syllabed):
 		ano_verse = correct_annotation(syllabed, ano_verse, POS_list[-1])
 	except:
 		print(f"{syllabed} + est vide")
-	return ano_verse
+	return ano_verse.replace('e', '')
 	
